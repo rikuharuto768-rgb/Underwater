@@ -1,0 +1,26 @@
+ To install zip and unzip on Ubuntu, you can use the standard package manager (apt). Use the following command to install both at once: [1, 2]
+bash
+sudo apt update && sudo apt install zip unzip
+يُرجى استخدام الرمز البرمجي بحذر.
+Installation Steps
+    1. Update Package List: It is good practice to update your local package index before installing new software.
+       bash
+       sudo apt update
+       يُرجى استخدام الرمز البرمجي بحذر.
+    2. Install the Utilities: Run the installation command for both tools.
+       bash
+       sudo apt install zip unzip
+       يُرجى استخدام الرمز البرمجي بحذر.
+    3. Verify Installation: You can confirm they were installed correctly by checking their versions.
+        ◦ For zip: zip -v
+        ◦ For unzip: unzip -v [1, 2, 3, 4]
+Basic Usage
+Once installed, you can use these common commands:
+    • Zip a file/folder:
+        ◦ Single file: zip archive_name.zip file.txt
+        ◦ A directory (recursively): zip -r archive_name.zip folder_name/
+    • Unzip an archive:
+        ◦ To current directory: unzip archive_name.zip
+        ◦ To a specific directory: unzip archive_name.zip -d /path/to/destination/
+    • List contents without extracting: unzip -l archive_name.zip [1, 2, 3, 4, 5, 6]
+
